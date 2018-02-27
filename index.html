@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>One Piece Hangman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="icon.png">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+<body>
+	<div id="answer">
+		<h1 id="response"></h1>
+		<div id="character"></div>
+		<h1 id="anykey"></h1>
+	</div>
+
+	<div id="container">
+		<div id="header">
+			<h1>One Piece Hangman</h1>
+		</div> <!-- end #header -->
+
+		<div id="current-word">
+			<h2>Guess the word:</h2>
+			<h2 id="wordToGuess"></h2>
+		</div>
+
+		<div id="media-input"></div>
+
+		<div id="info">
+			<div id="wins-count">
+				<h2>Wins:</h2>
+				<h2 id="wins">0</h2>
+			</div>
+
+			<div id="guess-left">
+				<h2>Guess left:</h2>
+				<h2 id="guess">5</h2>
+			</div>
+
+			<div id="wrong-guess-count">
+				<h2>Wrong Guess:</h2>
+				<h2 id="wrong-guess"></h2>
+			</div>
+		</div> <!-- end #info -->
+
+		<div id="hangman"></div>
+
+		<div id="clear"></div>
+	</div> <!-- end #container -->
+	<script src="assets/js/javascript.js"></script>
+</body>
+</html>
